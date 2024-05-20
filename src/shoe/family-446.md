@@ -1,10 +1,10 @@
 ---
 title: Family 446 shoe
 layout: base
-image: 
-imagealt: 
-credit: Zoriah Miller for Dollar street 2015
-creditlink: https://www.gapminder.org/dollar-street/photographers/zoriah-miller?
+image: family 446 shoe
+imagealt: girl putting on shoe with laces.
+credit: Santiago Madera for Dollar Street 2022 (Free to use under CC BY 4.0)
+creditlink: https://www.gapminder.org/dollar-street/photographers/santiago-madera?
 tags: [shoe, familywear]
 ---
 
