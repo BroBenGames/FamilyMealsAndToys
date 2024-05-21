@@ -1,3 +1,15 @@
+---
+title: Home page
+layout: base
+pageClass: home
+tags:
+-home
+-welcome
+-info
+---
+<h2 class="mainHeading">Main Content</h2>
+<a href="/toys">Go to toys</a>
+
 <!DOCTYPE html>
 <!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en" dir="ltr">
@@ -88,7 +100,6 @@
   <script src="script.js"></script>
 </body>
 </html>
-
 
 
 ## Other instructions
