@@ -19,7 +19,7 @@ tags:
                     </div>
                     <div class="carousel-text">
                         <h1 >{{post.data.title}}</h1>
-                        <button class="read-more-btn">Read More</button>
+                       <a href="{{post.url}}" class="read-more-btn">Read More</a>
                     </div>
                 </div>
                 {%- endfor %}
@@ -27,4 +27,6 @@ tags:
         </div>
        </div>
 
-    <button class="carousel-btn prev" onclick="prevSlide()">&#100
+       <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+       <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+   
