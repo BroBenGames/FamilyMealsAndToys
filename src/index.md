@@ -12,7 +12,7 @@ tags:
  <div class="carousel-container">
         <div class="carousel-wrapper">
             <div class="carousel-content">
-              {%- for post in collections.toy %}
+              {%- for post in collections.family %}
                 <div class="carousel-item">
                     <div class="carousel-image">
                         <img src="/images/{{post.data.image}}" alt="{{post.data.imagealt}}">
@@ -30,3 +30,14 @@ tags:
        <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
        <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
    
+
+   ## Toys
+  <div class="image-grid">
+   {%- for post in collections.family %}
+        <div class="image-item">
+        <a href="{{post.url}}" class="read-more-btn">
+          <img src="/images/{{post.data.toyimage}}" alt="{{post.data.toyimagealt}}">
+        </a>
+    </div>
+  {%- endfor %}
+  </div>
